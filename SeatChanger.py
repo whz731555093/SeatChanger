@@ -52,7 +52,7 @@ else:
     NewSheet = NewTable["CurSeat"]
 
     ShiftNum = 1  # 表示向前移动的位数
-    RowGroup1_Member = 0  # 0表示不分组，其余数表示组1的人数
+    RowGroup1_Member = 4  # 0表示不分组，其余数表示组1的人数
     # 根据交换模式为新表进行赋值
     if ChangeModeChoice == 1:
         # 模式1：前后轮换
